@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torikha-Tijaniyah</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        p {
+            margin: 0;
+            padding: 0;
+            margin-top: 0;
+        }
+
+        .main > h1 {
+            display: inline-block;
+            margin-right: 50px;
+            margin-top: 2px;
+        }
+
+        .main > ul {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 10px;
+            margin: 0;
+            margin-top: 0;
+            border: none;
+        }
+
+        img {
+            height: 400px;
+            width: 400px;
+            object-fit: cover;
+        }
+
+        .main > #pictures {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .main > #pictures > div {
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: gray;
+        }
+
+        /* Media Query for smaller screens */
+        @media (max-width: 720px) {
+            .main > h1 {
+                display: block;
+                margin-top: 20px;
+            }
+
+            .main > ul {
+                display: block;
+                text-align: center;
+            }
+
+            img {
+                height: 200px;
+                width: 200px;
+            }
+
+            .main > div {
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(241, 237, 229);
+                margin-top: 40px;
+            }
+
+            .main {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+
+            footer {
+                margin-top: 40px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./alkhaleefa.html">Present-khaleefa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./all.html">link-about-all</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   The Icons
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./sheikh-ibrahim.html">owner of the faedoh</a></li>
+                  <li><a class="dropdown-item" href="./immamhassan.html">Immam Hassan Cisse</a></li>
+                  <li><a class="dropdown-item" href="./alkhaleefa.html">Alkaleefa</a></li>
+                  <li><a class="dropdown-item" href="./imamtijan.html">Immam-l-faedoh</a></li>
+                  <li><a class="dropdown-item" href="./shkmahicisse.html">spoke-person of the faedoh</a></li>
+                  <li><hr class="dropdown-divider"></li>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div class="main">
+        <h1>TORIKHA-TIJANIYAH WA FAEDAOH IBRAHIMIYYA</h1>
+        
+        <p>Our spiritual masters hold a profound and irreplaceable place in our life. They guide us not only through spiritual teachings but also through everyday challenges, offering wisdom, compassion, and strength. On a physical level, they are the anchors that help us navigate the complexities of life, providing clarity when confusion arises and support when we face adversity. Spiritually, they are the light that illuminates our path, teaching us to connect with a higher purpose, cultivate inner peace, and transcend limitations. Their influence shapes our thoughts, actions, and intentions, allowing us to grow both as a person and as a seeker of truth. The presence of our spiritual masters is a blessing, and their role in our journey is invaluable, as they lead us toward self-realization and deeper spiritual understanding.</p>
+        
+        <div id="pictures">
+            <div>
+                <h3>AS-SHEIKH AHMAD TIJANI RTA</h3>
+                <a href="./abul-abbas.html"><img src="./abul abbas tijan.jpg" alt="Sheikh Ahmad Tijani"></a>
+            </div>
+            <div>
+                <h3>AS-SHEIKH ALHAJI ABDOULAYE NIASS RTA</h3>
+                <a href="./mame-abdullah.html"><img src="./mam alhaji abdoulaye.JPG" alt="Mame Alhaji Abdoulaye Niass"></a>
+            </div>
+            <div>
+                <h3>AS-SHEIKH ALHAJI IBRAHIM NIASS RTA</h3>
+                <a href="./sheikh-ibrahim.html"><img src="./sheikh ibrahim niass.JPG" alt="Sheikh Ibrahim Niass"></a>
+            </div>
+            <div>
+                <h3>AS-SEYYIDY ALIOU CISSE</h3>
+                <a href="./seyyidy.html"><img src="./seyyid aliu cisse.jpg" alt="Seyyid Aliou Cisse"></a>
+            </div>
+            <div>
+                <h3>AS-SHEIKH MOUHAMADOU MAHI NIASS RTA</h3>
+                <a href="./alkhaleefa.html"><img src="./sheikh mahi niass.JPG" alt="Sheikh Mahi Niass"></a>
+            </div>
+            <div>
+                <h3>AS-SHEIKH IMMAM HASSAN CISSE RTA</h3>
+                <a href="./immamhassan.html"><img src="./immam hassan cisse.jpg" alt="Imam Hassan Cisse"></a>
+            </div>
+            <div>
+                <h3>AS-SHEIKH IMMAM TIJANI CISSE RTA</h3>
+                <a href="./imamtijan.html"><img src="./immam tijan cisse.jpg" alt="Imam Tijani Cisse"></a>
+            </div>
+            <div>
+                <h3>AS-SHEIKH MOUHAMADOU MAHI ALIOU CISSE</h3>
+                <a href="./shkmahicisse.html"><img src="./sheikh mahi cisse.jpg" alt="Sheikh Mahi Aliou Cisse"></a>
+            </div>
+        </div>
+
+        <footer>Click on each picture to read details about them.</footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
